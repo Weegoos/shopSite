@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: 	#C4A484;
+}
+
+.photoModel{
+    position: absolute;
+    left: 64vw;
+    top: 4vw;
+    width: 28%;
+    /* height: 28%; */
+    border-radius: 50%;
+}
+
+.allText{
+    position: absolute;
+    top: 15vw;
+    left: 2vw;
+    font-size: 8vw;
+}
+.totalNum{
+    position: absolute;
+    top: 18vw;
+    left: 45vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    position: relative;
+    top: 45vw;
+    left: 0vw;
+    background: 	#C4A484;
+}

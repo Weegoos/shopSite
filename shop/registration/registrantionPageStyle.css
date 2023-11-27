@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    position: absolute;
+    top: 12vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container input{
+    position: absolute;
+    font-size: 1vw;
+    border: solid #000 1px;
+    padding-left: 1.2vw;
+    padding: 0.3vw;
+    outline: none;
+    border-radius: 0.5vw;
+    width: 15vw;
+    height: 1.2vw;
+    left: 40vw;
+}
+
+#userName{
+    position: absolute;
+}
+
+#userPassword{
+    top: 3vw;
+}
+
+button{
+    position: absolute;
+    font-size: 1vw;
+    border: solid #000 1px;
+    padding-left: 1.2vw;
+    padding: 0.3vw;
+    outline: none;
+    border-radius: 0.5vw;
+    left: 40vw;
+    top: 6vw;
+    background: #fafafa;
+    width: 9vw;
+    display: none;
+}
+
+
